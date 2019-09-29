@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+        <title>Аудио | Дополнительно. Лабораторная работа №2</title>
+    </head>
+    <body>
+        <h1>Аудио</h1>
+        <!-- 
+        controls - добавить элементы управления воспроизведением 
+        autoplay - начать воспроизведение после загрузки страницы
+        src - путь к файлу (не обязателен)
+        -->
+        <audio controls autoplay>
+            <!-- Указание файлов, которые будут использоваться для воспроизведения браузером.
+                 Браузер начнет воспроизводить первый файл, формат которого поддерживает -->
+            <source src="../audio/vivaldi.mp3">
+            <source src="../audio/vivaldi.ogg">
+            <a href="http://html5test.com/">Браузер не поддерживает воспроизведение звуковых медиафайлов</a>
+        </audio>
+        <br>
+        Популярные мультимедиа контейнеры:
+        <ul>
+            <li><strong>ААС </strong>&mdash; формат сжатия с потерями, дает более высокое качество чем MP3</li>
+            <li><strong>MP3</strong> &mdash; лицензируемый формат файла для хранения аудиоинформации</li>
+            <li><strong>OGG</strong> &mdash; открытый стандарт мультимедиа контейнера </li>
+            <li><strong>WAV</strong> &mdash; проприетарный аудиоформат без какого-либо сжатия;</li>
+            <li><strong>WEBM</strong> &mdash; открытый бесплатный медиаформат Google, основанный на аудиокодеке Vorbis</li>
+        </ul>
+    </body>
+</html>
